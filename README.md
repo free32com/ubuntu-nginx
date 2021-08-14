@@ -1,1 +1,1 @@
-# ubuntu-nginx
+# Ubuntu base with nginx, serving two files

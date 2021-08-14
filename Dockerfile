@@ -9,7 +9,6 @@ RUN apt-get install -y nginx
 RUN rm -f /etc/nginx/site-enabled/default
 COPY default /etc/nginx/site-enabled/default
 RUN rm -f /var/www/html/index.nginx-debian.html
-COPY 22.txt /var/www/html/22.txt
 COPY 33.txt /var/www/html/33.txt
 
 #
